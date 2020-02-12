@@ -7,5 +7,6 @@ Serverless portfolio with AWS and ReactJS.
 
 ## Technologies Used
 
+brew
 Git and github
 SSH
