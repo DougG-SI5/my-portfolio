@@ -10,3 +10,7 @@ Serverless portfolio with AWS and ReactJS.
 brew
 Git and github
 SSH
+HTML
+css
+Font awesome
+Google fonts
