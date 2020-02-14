@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .section {
   font-size: 4.2rem;
-  min-height: 70vh;
+  min-height: 50vh;
   position: relative;
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -91,6 +91,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .section--alignCentered {
   text-align: center;
+}
+
+.section--alignJustify {
+  text-align: justify;
 }
 
 .section--description {
@@ -102,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 .section__description {
   margin: 0 auto;
   margin-bottom: 2rem;
-  width: 50%;
+  width: 80%;
 }
 
 .section__text--centered {
