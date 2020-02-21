@@ -32,9 +32,9 @@
 
     <script src="https://unpkg.com/babel-standalone"></script>
     <script type="text/javascript"
-      src="https://unpkg.com/react@16.0.0/umd/react.production.min.js"></script>
+      src="https://unpkg.com/react@16.2.0/umd/react.production.min.js"></script>
     <script type="text/javascript"
-      src="https://unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js"></script>
+      src="https://unpkg.com/react-dom@16.12.0/umd/react-dom.production.min.js"></script>
     <script type="text/javascript"
       src="https://unpkg.com/chai@4.0.2/chai.js"></script>
       <script type="text/javascript"
@@ -126,7 +126,7 @@
           let button = document.querySelector("#inputButton");
           button.click()
           assert.include(msgBox.classList.value, "error", "Message box type is error");
-          
+
         })
       });
       mocha.run();
