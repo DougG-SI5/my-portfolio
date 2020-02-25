@@ -107,4 +107,7 @@ typings/
 .DS_Store
 
 # Build and Compiled Code Directory
-#dist
+dist
+
+#Other ignores
+secret
