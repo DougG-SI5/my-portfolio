@@ -4,23 +4,25 @@ import ExampleWork from './example-work';
 
 const myWork = [
   {
-    'title': "Work Example",
+    'title': "#1 Sample",
     'image': {
       'desc': "example screenshot of a project involving code",
       'src': "images/example1.png",
       'comment': ""
     }
   },
+  
   {
-    'title': "Portfolio Page",
+    'title': "#2 Portfolio Build",
     'image': {
       'desc': "My Boiler Plate Image",
       'src': "images/example2.png",
       'comment': ""
     }
   },
+
   {
-    'title': "Work Example",
+    'title': "#3 Sample",
     'image': {
       'desc': "example screenshot of a project involving cats",
       'src': "images/example3.png",
