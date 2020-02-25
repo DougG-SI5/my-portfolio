@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ExampleWork from './example-work';
 
+console.log("Hi from main.js");
+
 const myWork = [
   {
     'title': "#1 Sample",
@@ -11,9 +13,9 @@ const myWork = [
       'comment': ""
     }
   },
-  
+
   {
-    'title': "#2 Portfolio Build",
+    'title': "#2 AWS Portfolio Build",
     'image': {
       'desc': "My Boiler Plate Image",
       'src': "images/example2.png",
@@ -30,7 +32,7 @@ const myWork = [
                   https://www.flickr.com/photos/37287295@N00/2540855181`
     }
   },
+];
 
-]
 
 ReactDOM.render(<ExampleWork work={myWork}/>, document.getElementById('example-work'));
