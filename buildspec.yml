@@ -1,6 +1,6 @@
-version: 0.1
+version: 0.2
 
-phase:
+phases:
   build:
     commands:
       - npm install
@@ -12,4 +12,3 @@ artifacts:
     - styles/main.css
     - images/*
     - dist/bundle.js
-    
