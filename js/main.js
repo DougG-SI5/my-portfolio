@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ExampleWork from './example-work';
 
-console.log("Hello from main.js");
+console.log("Hello from main.js post modal");
 
 const myWork = [
   {
